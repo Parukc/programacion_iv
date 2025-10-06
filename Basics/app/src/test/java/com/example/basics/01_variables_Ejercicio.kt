@@ -2,30 +2,30 @@ package com.example.basics
 
 fun main(){
     println("VARIABLES")
-    val planeta = "Tatooine"
-    var jedi = "Anakin"
+    val auto = "Ferrari"
+    var piloto = "Verstappen"
 
-    jedi = "Obiwan"
+    piloto = "Norris"
     println("Tipos de Variables")
     println("Tipos Numèricos")
     println("Tipo Entero")
-    val edad: Int = 25
+    val edad: Int = 21
     println(edad)
 
     println("Tipo Double")
-    val altura: Double = 25.5
+    val altura: Double = 30.5
     println(altura)
 
     println("Tipo Float")
-    val peso: Float = 25.5f
+    val peso: Float = 30.5f
     println(peso)
 
     println("Tipo Long")
-    val poblacion: Long = 2_000_000_000L
+    val poblacion: Long = 3_000_000_000L
     println(poblacion)
 
     println("Tipo Texto")
-    val nombre: String = "Obi-Wan Kenobi"
+    val nombre: String = "Charles Lecrerc"
     println(nombre)
 
     println("Tipo Char")
@@ -33,11 +33,11 @@ fun main(){
     println(incial)
 
     println("Tipo Lògico")
-    val esJedi: Boolean = true
-    println(esJedi)
+    val esPiloto: Boolean = true
+    println(esPiloto)
 
     println("Nulaidad")
-    val apellido: String? = "Muriel"
+    val apellido: String? = "Piastri"
     println(apellido)
 
     println("Nulaidad")
@@ -48,17 +48,17 @@ fun main(){
     val longitudSegura = apellido!!.length
 
     println("Interpolacion de strings")
-    val nombrePrincesa: String = "Leia"
-    val edadPrincesa: Int = 19
-    val planetaPrincesa: String = "Alderan"
+    val nombrePiloto: String = "Sena"
+    val edadPiloto: Int = 23
+    val autoPiloto: String = "Williams"
 
-    println("${nombrePrincesa.uppercase()} nacio en ${planetaPrincesa}")
-    println("En 10 anioss tendra: ${edadPrincesa+10} anios")
+    println("${nombrePiloto.uppercase()} nacio en ${autoPiloto}")
+    println("En 10 anioss tendra: ${edadPiloto+10} anios")
 
     println("String Multilinea")
     val mensaje: String = """
         Querido: $nombre
-        Tu mision en $planeta
+        Tu vehiculo es el $auto
         ah sido completada existosamente
      """.trimIndent()
     println(mensaje)

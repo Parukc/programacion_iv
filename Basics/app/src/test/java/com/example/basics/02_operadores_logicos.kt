@@ -9,5 +9,4 @@ fun main(){
     val necesitaAyuda = !entrenamiento || nivel < 3
     println("Es apto : ${esApto}")
     println("Necesita Ayuda : ${necesitaAyuda}")
-
 }
