@@ -1,6 +1,5 @@
 package com.example.basics
 
-// Función simple sin parámetros
 fun presentarSacramentos() {
     println("Bienvenido a los 7 Sacramentos de la Iglesia Católica")
 }
@@ -24,7 +23,6 @@ fun resumenSacramentos(recibidos: Int, faltantes: Int): Pair<Int, String> {
 fun main() {
     presentarSacramentos()
 
-    // Ejemplo de uso de funciones
     val recibidos = 3
     val faltantes = 4
 

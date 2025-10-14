@@ -29,11 +29,9 @@ fun main() {
 
     println(bautismo)
 
-    // Desestructuración del objeto
     val (nombre, edadMinima, tipo) = bautismo
     println("Sacramento: $nombre, Edad mínima: $edadMinima, Tipo: $tipo")
 
-    // Copiar objeto (ejemplo con otro sacramento)
     val matrimonio = bautismo.copy(
         nombre = "Matrimonio",
         edadMinima = 18,
