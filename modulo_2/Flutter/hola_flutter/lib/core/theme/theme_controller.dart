@@ -34,4 +34,3 @@ class ThemeController extends ChangeNotifier {
     // Alterna solo entre claro y oscuro (rápido para UI); puedes ampliar con 'system'
     await setMode(_mode == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark);
   }
-}

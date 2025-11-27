@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import UsersListScreen from "../screens/UsersListScreen";
 import UserFormScreen from "../screens/UserFormScreen";
-import colors from "../theme/colors";
+import colors from "../../../estilos/src/theme/colors";
 
 export type RootStackParamList = {
   Users: undefined;
